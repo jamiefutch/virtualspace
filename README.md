@@ -12,10 +12,15 @@ You can install the packaged extension directly into VS Code from the generated 
 
 Alternatively, you can install it via the command line:
 ```bash
-code --install-extension virtual-space-0.0.1.vsix
-```
+code --install-extension virtual-space-0.0.1.vsix       
+``` 
+or
 
-## Limitations
+```bash                                                
+antigravity --install-extension virtual-space-0.0.1.vsix
+```                                                     
+                                                        
+## Limitations                                          
 
 Because VS Code does not natively support true "virtual space" in its editor rendering engine, this extension emulates the behavior by physically inserting space characters (`' '`) into the document to pad lines out to the target column. 
 
