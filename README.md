@@ -1,4 +1,4 @@
-#  VS Code Virtualspace
+#  VS Code Virtual Space
 Visual Studio Code Virtual Space
 
 ## Build a VSIX package
