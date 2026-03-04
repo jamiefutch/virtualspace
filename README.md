@@ -1,6 +1,30 @@
 # virtualspace
 Visual Studio Code Virtual Space
 
+## Build a VSIX package
+
+To compile and package this extension as a `.vsix` file:
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Compile TypeScript:
+
+```bash
+npm run compile
+```
+
+3. Package the extension:
+
+```bash
+npx @vscode/vsce package
+```
+
+This creates a file like `virtual-space-0.0.1.vsix` in the project root.
+
 ## Installation
 
 You can install the packaged extension directly into VS Code from the generated `.vsix` file:
