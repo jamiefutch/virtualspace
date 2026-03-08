@@ -3,7 +3,7 @@
   "publisher": "jamiefutch",
   "displayName": "Virtual Space",
   "description": "Emulate Visual Studio's Virtual Space feature by allowing the cursor to move past the end of lines.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/jamiefutch/virtual-space.git"
